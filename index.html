@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO List App</title>
+    <link rel="Stylesheet" href="style.css">
+
+</head>
+<body>
+       <!-- input box or submit button or todo logo-->
+    <div class="container">
+        <div>
+    
+            <h2>To-Do-List<img src="todolist.png"></h2>
+            <div class="row">
+                <input type="text" id ="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+           
+        </div>
+    </div>
+     <!--end input box or submit button or todo logo-->
+
+      <!-- all list show or span -->
+    <div class="container1">
+        <h2 class="showtodo"> Show All To-DO-List</h2>
+        <div class="todo-app">
+            <div id="tasks">
+                <p id="pending-tasks">you have <span class="count-value">0</span> task(s) to complete.</p>
+
+            </div>
+            <ul id="list-container">
+
+            </ul>
+        </div>
+    </div>
+     <!-- end all list show or span -->
+    <script src="script.js"></script>
+</body>
+</html>
